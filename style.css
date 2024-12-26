@@ -1,0 +1,73 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container for the whole content */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #4CAF50;
+}
+
+/* Section headers */
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Styling for the personal information */
+.personal-info p {
+    margin: 8px 0;
+    font-size: 1rem;
+}
+
+.personal-info strong {
+    color: #333;
+}
+
+/* Styling for education, skills, and hobbies sections */
+.education, .skills, .hobbies {
+    margin-bottom: 20px;
+}
+
+/* Styling for list items under skills and hobbies */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 5px 0;
+    font-size: 1rem;
+    padding-left: 15px;
+    position: relative;
+}
+
+ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #4CAF50;
+}
