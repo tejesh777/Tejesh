@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Student Resume</h1>
+        </header>
+        
+        <section class="personal-info">
+            <h2>Personal Information</h2>
+            <p><strong>Name:</tejesh></p>
+            <p><strong>Father's Name:</prasad></p>
+            <p><strong>Mother's Name:</devi></p>
+            <p><strong>Date of Birth:</may 22, 2005></p>
+            <p><strong>Address:</13-81,indhranagar,vishakhapatnam,india></p>
+            <p><strong>Email:</nambarutejesh2005@gmail.com> </p
+            <p><strong>Phone:</+91 8143504851></p>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <p><strong>High School:</strong> Example High School (Graduated 2018)</p>
+            <p><strong>University:</strong> Example University - Computer Science (Currently Enrolled)</p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python, Java</li>
+                <li>Database Management</li>
+                <li>Problem-Solving and Critical Thinking</li>
+            </ul>
+        </section>
+
+        <section class="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Coding</li>
+                <li>Reading</li>
+                <li>Photography</li>
+                <li>Traveling</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
+CSS Code (styles.css)
+css
+Copy code
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container for the whole content */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #4CAF50;
+}
+
+/* Section headers */
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Styling for the personal information */
+.personal-info p {
+    margin: 8px 0;
+    font-size: 1rem;
+}
+
+.personal-info strong {
+    color: #333;
+}
+
+/* Styling for education, skills, and hobbies sections */
+.education, .skills, .hobbies {
+    margin-bottom: 20px;
+}
+
+/* Styling for list items under skills and hobbies */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 5px 0;
+    font-size: 1rem;
+    padding-left: 15px;
+    position: relative;
+}
+
+ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #4CAF50;
+}
+Explanation:
+HTML Structure:
+The personal-info section contains the student's name, parent's names, and other personal details like date of birth, address, email, and phone number.
+The education, skills, and hobbies sections outline the student's academic background, skills, and personal interests, respectively.
+CSS Styling:
+The styles provide a clean and modern look with a light background, rounded corners, and shadow effects to make the resume stand out.
+The sections are clearly separated, with headers in green to make them prominent.
+The lists of skills and hobbies are styled with custom bullets to maintain a professional appearance.
+To use this code, create two files: index.html for the HTML content and styles.css for the styling. Make sure both files are in the same directory.
+
+
+
+
+
+
+ChatGPT can make mistakes. Check important info.
+?
